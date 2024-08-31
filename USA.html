@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USA Flag Project CSS</title>
+    <style>
+        /* Here CSS for USA Flag */
+        body {
+            background-color: black;
+        }
+
+        .flag-usa {
+            background-color: #fff;
+            width: 600px;
+            height: 400px;
+            padding: 0;
+            margin: 0;
+            position: relative;
+        }
+
+        .red-rect {
+            background-color: #B31942;
+            width: 100%;
+            height: 30.8px;
+            margin: 0 0 30.7px 0;
+        }
+
+        .flag-usa>div:nth-child(7) {
+            margin: 0;
+        }
+
+        /* This CSS is only blue shape */
+        .blue {
+
+            /* background-color: #0A3161;
+            width: 270px;
+            height: 215px; */
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        /* This CSS blue shape with star I create in Canva */
+        .blue img {
+
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flag-usa">
+        <div class="red-rect">
+        </div>
+        <div class="red-rect">
+        </div>
+        <div class="red-rect">
+        </div>
+        <div class="red-rect">
+        </div>
+        <div class="red-rect">
+        </div>
+        <div class="red-rect">
+        </div>
+        <div class="red-rect">
+        </div>
+        <div class="blue">
+            <img src="./Assets/Image/usa-star.png" alt="usa star image rectangle">
+        </div>
+    </div>
+</body>
+
+</html>
